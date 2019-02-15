@@ -22,3 +22,46 @@ html {
 body {
   margin: 0;
 }
+header {
+  background-color: #e2e2e2;
+}
+
+h1, nav {
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+ul {
+  padding-left: 0;
+}
+
+a {
+  color: #0074d9;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+  background-color: #0074d9;
+}
+
+li .current {
+  background-color: #0074d9;
+  color: #fff
+}
+
+@media only screen and (min-width: 38em) {
+
+h1 {
+    text-align: left;
+}
+
+ul {
+    text-align: right;
+}
+
+}
